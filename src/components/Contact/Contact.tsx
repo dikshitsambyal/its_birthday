@@ -11,7 +11,7 @@ export function Contact() {
         <br /><br />
 
         <p>
-          <strong>Dear Ahmm....? hn Friends,</strong>
+          <strong>Dear Ahmm....? hn Friends diskjti,</strong>
         </p>
 
         <ScrollAnimation animateIn="fadeInUp" delay={0.05 * 1000}>
