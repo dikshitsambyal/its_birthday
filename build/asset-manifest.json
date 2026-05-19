@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.039bf95e.css",
+    "main.js": "/static/js/main.662726cb.js",
+    "static/media/happy-birthday-220024.mp3": "/static/media/happy-birthday-220024.532bc335ca255df22585.mp3",
+    "static/media/SIMRAN.mp4": "/static/media/SIMRAN.0ce020d438f84567bd24.mp4",
+    "static/media/img2.jpg": "/static/media/img2.5d8714545a13e99f2ad6.jpg",
+    "static/media/img11.jpg": "/static/media/img11.f081fb1518379ee08e6f.jpg",
+    "static/media/img5.jpg": "/static/media/img5.adc3914428f167176482.jpg",
+    "static/media/img7.jpg": "/static/media/img7.a5d59c717bc981ad781c.jpg",
+    "static/media/img9.jpg": "/static/media/img9.ecb1e80ad269a858282a.jpg",
+    "static/media/img3.jpg": "/static/media/img3.d2a159e8e61f10b0ba8c.jpg",
+    "static/media/img4.jpg": "/static/media/img4.e7c3a212295a7e4b10a0.jpg",
+    "static/media/img13.jpg": "/static/media/img13.105f1ff7b8640ba7b7dc.jpg",
+    "static/media/img14.jpg": "/static/media/img14.d2c8ce622f69dadf8ad1.jpg",
+    "static/media/img12.jpg": "/static/media/img12.9b6a06ed8ee40343f844.jpg",
+    "static/media/smile2-icon.svg": "/static/media/smile2-icon.ed555d6df38b6d78cfea6a88a0530317.svg",
+    "static/media/illustration.svg": "/static/media/illustration.cf4b7a67f23b684549c4f797c62b527a.svg",
+    "static/media/emj2.svg": "/static/media/emj2.b2f8dea0ba8a0a269fe47790f8226833.svg",
+    "static/media/emj3.svg": "/static/media/emj3.c87daf39ec101d2693d719948e8a0bea.svg",
+    "static/media/emj9.svg": "/static/media/emj9.f6cdc1cca1af1a417c781dc213c7470c.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.459dad86534ca5699520ed770f3ce605.svg",
+    "static/media/emj5.svg": "/static/media/emj5.51ff8b5f1e6746e9fed2897bb090f078.svg",
+    "static/media/react-icon.svg": "/static/media/react-icon.f1484e295933af0e748d6a01b05a8361.svg",
+    "static/media/telegram.svg": "/static/media/telegram.45bf2371ee6528cc27d66c08f8e43356.svg",
+    "static/media/instagram.svg": "/static/media/instagram.e9d6b5424508db6397a027a4e0fe0dd0.svg",
+    "index.html": "/index.html",
+    "static/media/emj7.svg": "/static/media/emj7.1a5fa01b55eef112dcdcd11654971efc.svg",
+    "static/media/github.svg": "/static/media/github.d344c0fc70ddfb6de253ddc40adcb086.svg",
+    "static/media/emj4.svg": "/static/media/emj4.5e19bdcc59342f756450fd6ce0602605.svg",
+    "static/media/emj1.svg": "/static/media/emj1.e2812ff5b18f09f2dfbddbb5842f0eae.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.4f00d78f67f451cf01173f7418aa186f.svg",
+    "static/media/emj6.svg": "/static/media/emj6.9bd1a0a61f4c5af89d8a30102128d63b.svg",
+    "static/media/smile-emoji.svg": "/static/media/smile-emoji.55d53c3f0255fb81cf2e537d406fbc4d.svg",
+    "main.039bf95e.css.map": "/static/css/main.039bf95e.css.map",
+    "main.662726cb.js.map": "/static/js/main.662726cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039bf95e.css",
+    "static/js/main.662726cb.js"
+  ]
+}

@@ -1,0 +1,45 @@
+name: Deploy to local server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: local-server-deploy
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    name: Build and deploy
+    runs-on: [self-hosted, local-server]
+
+    env:
+      DEPLOY_PATH: ${{ vars.LOCAL_DEPLOY_PATH }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build app
+        run: npm run build
+
+      - name: Deploy build folder
+        shell: pwsh
+        run: |
+          $deployPath = "${env:DEPLOY_PATH}"
+          if ([string]::IsNullOrWhiteSpace($deployPath)) {
+            $deployPath = "D:\IIS"
+          }
+
+          .\scripts\deploy-local.ps1 -BuildPath ".\build" -DeployPath $deployPath
